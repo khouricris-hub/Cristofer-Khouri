@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://khouricris-hub.github.io/Cristofer-Khouri/sitemap.xml
