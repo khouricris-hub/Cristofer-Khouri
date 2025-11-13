@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at 20% 30%, #0a0f29, #000);
+  color: #dbeafe;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background: linear-gradient(180deg, rgba(59,130,246,0.15), transparent);
+}
+
+header h1 {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  letter-spacing: 0.1em;
+  color: #60a5fa;
+  text-shadow: 0 0 25px rgba(37,99,235,0.5);
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #93c5fd;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 1.7rem;
+  color: #3b82f6;
+  border-left: 3px solid #2563eb;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid rgba(96,165,250,0.2);
+  color: #60a5fa;
+  background: linear-gradient(180deg, transparent, rgba(17,24,39,0.5));
+}
